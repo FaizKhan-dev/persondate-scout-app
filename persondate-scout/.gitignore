@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Test and tooling output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated Streamlit and model artifacts
+.streamlit/secrets.toml
+*.pkl
+*.joblib
+*.model
+
+# Logs and temporary files
+*.log
+*.tmp
+~$*
